@@ -935,6 +935,7 @@ PRODUCT_PACKAGES += \
     libtime_genoff \
     TimeService \
     CNEService \
+    GCS \
     QtiTetherService \
     com.qualcomm.location \
     QPerformance \
