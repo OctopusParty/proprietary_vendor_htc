@@ -936,6 +936,7 @@ PRODUCT_PACKAGES += \
     TimeService \
     CNEService \
     GCS \
+    Turbo \
     QtiTetherService \
     com.qualcomm.location \
     QPerformance \
