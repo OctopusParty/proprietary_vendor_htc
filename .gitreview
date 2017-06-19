@@ -1,4 +1,4 @@
 [gerrit]
 host=review.aosnp.com
 port=29418
-defaultbranch=n7x-eas
+defaultbranch=n-mr2
