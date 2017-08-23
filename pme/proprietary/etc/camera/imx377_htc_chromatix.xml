@@ -144,5 +144,27 @@ special_mode_mask values:
       <A3Video>imx377_zsl_hfr</A3Video>
       <A3HDR>imx377_zsl_hfr</A3HDR>
     </ChromatixName>
+    <ChromatixName sensor_resolution_index="5">
+      <ISPPreview>imx362_htc_default_video_1080p_60fps</ISPPreview>
+      <ISPSnapshot>imx362_htc_default_video_1080p_60fps</ISPSnapshot>
+      <ISPVideo>imx362_htc_default_video_1080p_60fps</ISPVideo>
+      <CPPPreview>imx362_htc_cpp_preview_1080p_60fps</CPPPreview>
+      <CPPSnapshot>imx362_htc_cpp_preview_1080p_60fps</CPPSnapshot>
+      <CPPVideo>imx362_htc_cpp_video_1080p_60fps</CPPVideo>
+      <CPPLiveshot>imx362_htc_cpp_video_1080p_60fps</CPPLiveshot>
+      <A3Preview>imx362_htc_zsl_preview_lc898212xd_1080p_60fps</A3Preview>
+      <A3Video>imx362_htc_zsl_video_lc898212xd_1080p_60fps</A3Video>
+    </ChromatixName>
+    <ChromatixName sensor_resolution_index="6">
+      <ISPPreview>imx362_htc_snapshot_60fps</ISPPreview>
+      <ISPSnapshot>imx362_htc_snapshot_60fps</ISPSnapshot>
+      <ISPVideo>imx362_htc_snapshot_60fps</ISPVideo>
+      <CPPPreview>imx362_htc_cpp_video_60fps</CPPPreview>
+      <CPPSnapshot>imx362_htc_cpp_video_60fps</CPPSnapshot>
+      <CPPVideo>imx362_htc_cpp_video_60fps</CPPVideo>
+      <CPPLiveshot>imx362_htc_cpp_video_60fps</CPPLiveshot>
+      <A3Preview>imx362_htc_zsl_preview_lc898212xd_60fps</A3Preview>
+      <A3Video>imx362_htc_zsl_video_lc898212xd_60fps</A3Video>
+    </ChromatixName>
   </ResolutionChromatixInfo>
 </ChromatixConfigurationRoot>

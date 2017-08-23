@@ -379,6 +379,15 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/vendor/lib/libchromatix_csidtg_postproc.so:system/vendor/lib/libchromatix_csidtg_postproc.so \
     vendor/htc/pme/proprietary/vendor/lib/libchromatix_csidtg_preview.so:system/vendor/lib/libchromatix_csidtg_preview.so \
     vendor/htc/pme/proprietary/vendor/lib/libchromatix_csidtg_zsl_preview.so:system/vendor/lib/libchromatix_csidtg_zsl_preview.so \
+    vendor/htc/pme/proprietary/vendor/lib/libchromatix_imx362_htc_cpp_preview_1080p_60fps.so:system/vendor/lib/libchromatix_imx362_htc_cpp_preview_1080p_60fps.so \
+    vendor/htc/pme/proprietary/vendor/lib/libchromatix_imx362_htc_cpp_video_1080p_60fps.so:system/vendor/lib/libchromatix_imx362_htc_cpp_video_1080p_60fps.so \
+    vendor/htc/pme/proprietary/vendor/lib/libchromatix_imx362_htc_cpp_video_60fps.so:system/vendor/lib/libchromatix_imx362_htc_cpp_video_60fps.so \
+    vendor/htc/pme/proprietary/vendor/lib/libchromatix_imx362_htc_default_video_1080p_60fps.so:system/vendor/lib/libchromatix_imx362_htc_default_video_1080p_60fps.so \
+    vendor/htc/pme/proprietary/vendor/lib/libchromatix_imx362_htc_snapshot_60fps.so:system/vendor/lib/libchromatix_imx362_htc_snapshot_60fps.so \
+    vendor/htc/pme/proprietary/vendor/lib/libchromatix_imx362_htc_zsl_preview_lc898212xd_1080p_60fps.so:system/vendor/lib/libchromatix_imx362_htc_zsl_preview_lc898212xd_1080p_60fps.so \
+    vendor/htc/pme/proprietary/vendor/lib/libchromatix_imx362_htc_zsl_preview_lc898212xd_60fps.so:system/vendor/lib/libchromatix_imx362_htc_zsl_preview_lc898212xd_60fps.so \
+    vendor/htc/pme/proprietary/vendor/lib/libchromatix_imx362_htc_zsl_video_lc898212xd_1080p_60fps.so:system/vendor/lib/libchromatix_imx362_htc_zsl_video_lc898212xd_1080p_60fps.so \
+    vendor/htc/pme/proprietary/vendor/lib/libchromatix_imx362_htc_zsl_video_lc898212xd_60fps.so:system/vendor/lib/libchromatix_imx362_htc_zsl_video_lc898212xd_60fps.so \
     vendor/htc/pme/proprietary/vendor/lib/libchromatix_imx377_cpp_hfr.so:system/vendor/lib/libchromatix_imx377_cpp_hfr.so \
     vendor/htc/pme/proprietary/vendor/lib/libchromatix_imx377_cpp_liveshot.so:system/vendor/lib/libchromatix_imx377_cpp_liveshot.so \
     vendor/htc/pme/proprietary/vendor/lib/libchromatix_imx377_cpp_preview.so:system/vendor/lib/libchromatix_imx377_cpp_preview.so \
