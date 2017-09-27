@@ -934,7 +934,7 @@ PRODUCT_PACKAGES += \
     libsdm-disp-apis \
     libthermalclient \
     libtime_genoff \
-    TimeService \
     com.qualcomm.location \
+    TimeService \
     QPerformance \
     com.qualcomm.qti.Performance
