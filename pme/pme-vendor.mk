@@ -31,27 +31,8 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/etc/camera/ov12890_htc_chromatix.xml:system/etc/camera/ov12890_htc_chromatix.xml \
     vendor/htc/pme/proprietary/etc/camera/ov12890eco_htc_chromatix.xml:system/etc/camera/ov12890eco_htc_chromatix.xml \
     vendor/htc/pme/proprietary/etc/camera/s5k4e6_htc_chromatix.xml:system/etc/camera/s5k4e6_htc_chromatix.xml \
-    vendor/htc/pme/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
-    vendor/htc/pme/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
-    vendor/htc/pme/proprietary/etc/cne/wqeclient/ATT/ATT_profile1.xml:system/etc/cne/wqeclient/ATT/ATT_profile1.xml \
-    vendor/htc/pme/proprietary/etc/cne/wqeclient/ATT/ATT_profile2.xml:system/etc/cne/wqeclient/ATT/ATT_profile2.xml \
-    vendor/htc/pme/proprietary/etc/cne/wqeclient/ATT/ATT_profile3.xml:system/etc/cne/wqeclient/ATT/ATT_profile3.xml \
-    vendor/htc/pme/proprietary/etc/cne/wqeclient/ATT/ATT_profile4.xml:system/etc/cne/wqeclient/ATT/ATT_profile4.xml \
-    vendor/htc/pme/proprietary/etc/cne/wqeclient/ROW/ROW_profile1.xml:system/etc/cne/wqeclient/ROW/ROW_profile1.xml \
-    vendor/htc/pme/proprietary/etc/cne/wqeclient/ROW/ROW_profile2.xml:system/etc/cne/wqeclient/ROW/ROW_profile2.xml \
-    vendor/htc/pme/proprietary/etc/cne/wqeclient/ROW/ROW_profile3.xml:system/etc/cne/wqeclient/ROW/ROW_profile3.xml \
-    vendor/htc/pme/proprietary/etc/cne/wqeclient/ROW/ROW_profile4.xml:system/etc/cne/wqeclient/ROW/ROW_profile4.xml \
-    vendor/htc/pme/proprietary/etc/cne/wqeclient/ROW/ROW_profile5.xml:system/etc/cne/wqeclient/ROW/ROW_profile5.xml \
-    vendor/htc/pme/proprietary/etc/cne/wqeclient/VZW/VZW_profile1.xml:system/etc/cne/wqeclient/VZW/VZW_profile1.xml \
-    vendor/htc/pme/proprietary/etc/cne/wqeclient/VZW/VZW_profile2.xml:system/etc/cne/wqeclient/VZW/VZW_profile2.xml \
-    vendor/htc/pme/proprietary/etc/cne/wqeclient/VZW/VZW_profile3.xml:system/etc/cne/wqeclient/VZW/VZW_profile3.xml \
-    vendor/htc/pme/proprietary/etc/cne/wqeclient/VZW/VZW_profile4.xml:system/etc/cne/wqeclient/VZW/VZW_profile4.xml \
-    vendor/htc/pme/proprietary/etc/cne/wqeclient/VZW/VZW_profile5.xml:system/etc/cne/wqeclient/VZW/VZW_profile5.xml \
-    vendor/htc/pme/proprietary/etc/cne/wqeclient/VZW/VZW_profile6.xml:system/etc/cne/wqeclient/VZW/VZW_profile6.xml \
     vendor/htc/pme/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
     vendor/htc/pme/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
-    vendor/htc/pme/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
-    vendor/htc/pme/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml:system/etc/dpm/nsrm/NsrmConfiguration.xml \
     vendor/htc/pme/proprietary/etc/firmware/htc_fp6_ta.b00:system/etc/firmware/htc_fp6_ta.b00 \
     vendor/htc/pme/proprietary/etc/firmware/htc_fp6_ta.b01:system/etc/firmware/htc_fp6_ta.b01 \
     vendor/htc/pme/proprietary/etc/firmware/htc_fp6_ta.b02:system/etc/firmware/htc_fp6_ta.b02 \
@@ -71,22 +52,13 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/etc/hldm.bin:system/etc/hldm.bin \
     vendor/htc/pme/proprietary/etc/hltof.bin:system/etc/hltof.bin \
     vendor/htc/pme/proprietary/etc/hltrd.bin:system/etc/hltrd.bin \
-    vendor/htc/pme/proprietary/etc/permissions/ConnectivityExt.xml:system/etc/permissions/ConnectivityExt.xml \
-    vendor/htc/pme/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
-    vendor/htc/pme/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
     vendor/htc/pme/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
-    vendor/htc/pme/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
     vendor/htc/pme/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/htc/pme/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/htc/pme/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
-    vendor/htc/pme/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
-    vendor/htc/pme/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
-    vendor/htc/pme/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
+    vendor/htc/pme/proprietary/framework/com.quicinc.cne.api-V1.0-java.jar:system/framework/com.quicinc.cne.api-V1.0-java.jar \
     vendor/htc/pme/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
-    vendor/htc/pme/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
     vendor/htc/pme/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
-    vendor/htc/pme/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
-    vendor/htc/pme/proprietary/framework/tcmiface.jar:system/framework/tcmiface.jar \
     vendor/htc/pme/proprietary/lib/hw/sensors.msm8996.so:system/lib/hw/sensors.msm8996.so \
     vendor/htc/pme/proprietary/lib/lib_fp_img_store.so:system/lib/lib_fp_img_store.so \
     vendor/htc/pme/proprietary/lib/lib_fpc_tac_shared.so:system/lib/lib_fpc_tac_shared.so \
@@ -103,7 +75,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/lib64/vendor.qti.gnss@1.0.so:system/lib64/vendor.qti.gnss@1.0.so \
     vendor/htc/pme/proprietary/vendor/bin/adsprpcd:system/vendor/bin/adsprpcd \
     vendor/htc/pme/proprietary/vendor/bin/cnd:system/vendor/bin/cnd \
-    vendor/htc/pme/proprietary/vendor/bin/dpmd:system/vendor/bin/dpmd \
     vendor/htc/pme/proprietary/vendor/bin/energy-awareness:system/vendor/bin/energy-awareness \
     vendor/htc/pme/proprietary/vendor/bin/htcdcpd:system/vendor/bin/htcdcpd \
     vendor/htc/pme/proprietary/vendor/bin/hvdcp_opti:system/vendor/bin/hvdcp_opti \
@@ -136,6 +107,25 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/vendor/bin/time_daemon:system/vendor/bin/time_daemon \
     vendor/htc/pme/proprietary/vendor/bin/xtra-daemon:system/vendor/bin/xtra-daemon \
     vendor/htc/pme/proprietary/vendor/etc/RIDL/qdss.cfg:system/vendor/etc/RIDL/qdss.cfg \
+    vendor/htc/pme/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml:system/vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml \
+    vendor/htc/pme/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml:system/vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml \
+    vendor/htc/pme/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile3.xml:system/vendor/etc/cne/wqeclient/ATT/ATT_profile3.xml \
+    vendor/htc/pme/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile4.xml:system/vendor/etc/cne/wqeclient/ATT/ATT_profile4.xml \
+    vendor/htc/pme/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile5.xml:system/vendor/etc/cne/wqeclient/ATT/ATT_profile5.xml \
+    vendor/htc/pme/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile6.xml:system/vendor/etc/cne/wqeclient/ATT/ATT_profile6.xml \
+    vendor/htc/pme/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile1.xml:system/vendor/etc/cne/wqeclient/ROW/ROW_profile1.xml \
+    vendor/htc/pme/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile2.xml:system/vendor/etc/cne/wqeclient/ROW/ROW_profile2.xml \
+    vendor/htc/pme/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile3.xml:system/vendor/etc/cne/wqeclient/ROW/ROW_profile3.xml \
+    vendor/htc/pme/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile4.xml:system/vendor/etc/cne/wqeclient/ROW/ROW_profile4.xml \
+    vendor/htc/pme/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile5.xml:system/vendor/etc/cne/wqeclient/ROW/ROW_profile5.xml \
+    vendor/htc/pme/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile6.xml:system/vendor/etc/cne/wqeclient/ROW/ROW_profile6.xml \
+    vendor/htc/pme/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile7.xml:system/vendor/etc/cne/wqeclient/ROW/ROW_profile7.xml \
+    vendor/htc/pme/proprietary/vendor/etc/cne/wqeclient/VZW/VZW_profile1.xml:system/vendor/etc/cne/wqeclient/VZW/VZW_profile1.xml \
+    vendor/htc/pme/proprietary/vendor/etc/cne/wqeclient/VZW/VZW_profile2.xml:system/vendor/etc/cne/wqeclient/VZW/VZW_profile2.xml \
+    vendor/htc/pme/proprietary/vendor/etc/cne/wqeclient/VZW/VZW_profile3.xml:system/vendor/etc/cne/wqeclient/VZW/VZW_profile3.xml \
+    vendor/htc/pme/proprietary/vendor/etc/cne/wqeclient/VZW/VZW_profile4.xml:system/vendor/etc/cne/wqeclient/VZW/VZW_profile4.xml \
+    vendor/htc/pme/proprietary/vendor/etc/cne/wqeclient/VZW/VZW_profile5.xml:system/vendor/etc/cne/wqeclient/VZW/VZW_profile5.xml \
+    vendor/htc/pme/proprietary/vendor/etc/cne/wqeclient/VZW/VZW_profile6.xml:system/vendor/etc/cne/wqeclient/VZW/VZW_profile6.xml \
     vendor/htc/pme/proprietary/vendor/etc/init/vendor.qti.gnss@1.0-service.rc:system/vendor/etc/init/vendor.qti.gnss@1.0-service.rc \
     vendor/htc/pme/proprietary/vendor/etc/perf-profile0.conf:system/vendor/etc/perf-profile0.conf \
     vendor/htc/pme/proprietary/vendor/firmware/BCM4349B1_002.002.014.0051.0061.hcd:system/vendor/firmware/BCM4349B1_002.002.014.0051.0061.hcd \
@@ -474,11 +464,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/vendor/lib/libcsm_data.so:system/vendor/lib/libcsm_data.so \
     vendor/htc/pme/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/htc/pme/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
-    vendor/htc/pme/proprietary/vendor/lib/libdpmctmgr.so:system/vendor/lib/libdpmctmgr.so \
-    vendor/htc/pme/proprietary/vendor/lib/libdpmfdmgr.so:system/vendor/lib/libdpmfdmgr.so \
-    vendor/htc/pme/proprietary/vendor/lib/libdpmframework.so:system/vendor/lib/libdpmframework.so \
-    vendor/htc/pme/proprietary/vendor/lib/libdpmnsrm.so:system/vendor/lib/libdpmnsrm.so \
-    vendor/htc/pme/proprietary/vendor/lib/libdpmtcm.so:system/vendor/lib/libdpmtcm.so \
     vendor/htc/pme/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/htc/pme/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/htc/pme/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
@@ -700,7 +685,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/vendor/lib/libsmwrapper.so:system/vendor/lib/libsmwrapper.so \
     vendor/htc/pme/proprietary/vendor/lib/libtrueportrait.so:system/vendor/lib/libtrueportrait.so \
     vendor/htc/pme/proprietary/vendor/lib/libubifocus.so:system/vendor/lib/libubifocus.so \
-    vendor/htc/pme/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
     vendor/htc/pme/proprietary/vendor/lib/libvpphvx.so:system/vendor/lib/libvpphvx.so \
     vendor/htc/pme/proprietary/vendor/lib/libvpplibrary.so:system/vendor/lib/libvpplibrary.so \
     vendor/htc/pme/proprietary/vendor/lib/libvqzip.so:system/vendor/lib/libvqzip.so \
@@ -808,11 +792,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/vendor/lib64/libdataitems.so:system/vendor/lib64/libdataitems.so \
     vendor/htc/pme/proprietary/vendor/lib64/libdiag.so:system/vendor/lib64/libdiag.so \
     vendor/htc/pme/proprietary/vendor/lib64/libdisp-aba.so:system/vendor/lib64/libdisp-aba.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libdpmctmgr.so:system/vendor/lib64/libdpmctmgr.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libdpmfdmgr.so:system/vendor/lib64/libdpmfdmgr.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libdpmframework.so:system/vendor/lib64/libdpmframework.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libdpmnsrm.so:system/vendor/lib64/libdpmnsrm.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libdpmtcm.so:system/vendor/lib64/libdpmtcm.so \
     vendor/htc/pme/proprietary/vendor/lib64/libdrmfs.so:system/vendor/lib64/libdrmfs.so \
     vendor/htc/pme/proprietary/vendor/lib64/libdrmtime.so:system/vendor/lib64/libdrmtime.so \
     vendor/htc/pme/proprietary/vendor/lib64/libdrplugin_client.so:system/vendor/lib64/libdrplugin_client.so \
@@ -926,7 +905,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
     vendor/htc/pme/proprietary/vendor/lib64/libuiblur.so:system/vendor/lib64/libuiblur.so \
     vendor/htc/pme/proprietary/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libvendorconn.so:system/vendor/lib64/libvendorconn.so \
     vendor/htc/pme/proprietary/vendor/lib64/libvoice-svc.so:system/vendor/lib64/libvoice-svc.so \
     vendor/htc/pme/proprietary/vendor/lib64/libvpphvx.so:system/vendor/lib64/libvpphvx.so \
     vendor/htc/pme/proprietary/vendor/lib64/libvpplibrary.so:system/vendor/lib64/libvpplibrary.so \
@@ -939,6 +917,11 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/vendor/qcril.db:system/vendor/qcril.db
 
 PRODUCT_PACKAGES += \
+    com.quicinc.cne.api@1.0 \
+    com.quicinc.cne.constants@1.0 \
+    com.quicinc.cne.constants@2.0 \
+    com.quicinc.cne.server@1.0 \
+    com.quicinc.cne.server@2.0 \
     libTimeService \
     libgpustats \
     libqti_performance \
