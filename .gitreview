@@ -1,4 +1,4 @@
 [gerrit]
-host=review.aosnp.com
+host=review.purefusionos.com
 port=29418
-defaultbranch=n-mr2
+defaultbranch=pf-o
