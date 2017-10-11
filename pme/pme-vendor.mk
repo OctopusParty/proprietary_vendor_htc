@@ -712,7 +712,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/vendor/lib/libvpphvx.so:system/vendor/lib/libvpphvx.so \
     vendor/htc/pme/proprietary/vendor/lib/libvqzip.so:system/vendor/lib/libvqzip.so \
     vendor/htc/pme/proprietary/vendor/lib/libwqe.so:system/vendor/lib/libwqe.so \
-    vendor/htc/pme/proprietary/vendor/lib/libwvdrm.so:system/vendor/lib/libwvdrm.so \
+    vendor/htc/pme/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
     vendor/htc/pme/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/htc/pme/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/htc/pme/proprietary/vendor/lib/rfsa/adsp/libadsp_fd_skel.so:system/vendor/lib/rfsa/adsp/libadsp_fd_skel.so \
@@ -929,7 +929,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/vendor/lib64/libxt_native.so:system/vendor/lib64/libxt_native.so \
     vendor/htc/pme/proprietary/vendor/lib64/libxtadapter.so:system/vendor/lib64/libxtadapter.so \
     vendor/htc/pme/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so \
-    vendor/htc/pme/proprietary/vendor/lib64/mediadrm/libwvdrmengine.so:system/vendor/lib64/mediadrm/libwvdrmengine.so \
     vendor/htc/pme/proprietary/vendor/lib64/sensor_calibrate.so:system/vendor/lib64/sensor_calibrate.so \
     vendor/htc/pme/proprietary/vendor/qcril.db:system/vendor/qcril.db
 
