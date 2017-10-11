@@ -506,7 +506,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
     vendor/htc/pme/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
     vendor/htc/pme/proprietary/vendor/lib/libflash_pmic.so:system/vendor/lib/libflash_pmic.so \
-    vendor/htc/pme/proprietary/vendor/lib/libgpustats.so:system/vendor/lib/libgpustats.so \
     vendor/htc/pme/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
     vendor/htc/pme/proprietary/vendor/lib/libhdcp1prov.so:system/vendor/lib/libhdcp1prov.so \
     vendor/htc/pme/proprietary/vendor/lib/libhtc_common.so:system/vendor/lib/libhtc_common.so \
@@ -817,7 +816,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/vendor/lib64/libflp.so:system/vendor/lib64/libflp.so \
     vendor/htc/pme/proprietary/vendor/lib64/libgdtap.so:system/vendor/lib64/libgdtap.so \
     vendor/htc/pme/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libgpustats.so:system/vendor/lib64/libgpustats.so \
     vendor/htc/pme/proprietary/vendor/lib64/libgsl.so:system/vendor/lib64/libgsl.so \
     vendor/htc/pme/proprietary/vendor/lib64/libhdcp1prov.so:system/vendor/lib64/libhdcp1prov.so \
     vendor/htc/pme/proprietary/vendor/lib64/libhtc_common.so:system/vendor/lib64/libhtc_common.so \
@@ -932,6 +930,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
     libTimeService \
+    libgpustats \
     libqti_performance \
     libsd_sdk_display \
     libsdm-disp-apis \
