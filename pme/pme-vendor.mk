@@ -253,7 +253,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/vendor/etc/sensors/hals.conf:system/vendor/etc/sensors/hals.conf \
     vendor/htc/pme/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
     vendor/htc/pme/proprietary/etc/thermal-engine.conf:system/etc/thermal-engine.conf \
-    vendor/htc/pme/proprietary/vendor/etc/RIDL/qdss.cfg:system/vendor/etc/RIDL/qdss.cfg \
     vendor/htc/pme/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
     vendor/htc/pme/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
     vendor/htc/pme/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
@@ -312,8 +311,8 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/vendor/bin/pd-mapper:system/vendor/bin/pd-mapper \
     vendor/htc/pme/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/htc/pme/proprietary/vendor/bin/qti:system/vendor/bin/qti \
-    vendor/htc/pme/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/htc/pme/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
+    vendor/htc/pme/proprietary/vendor/etc/RIDL/qdss.cfg:system/vendor/etc/RIDL/qdss.cfg \
     vendor/htc/pme/proprietary/vendor/etc/perf-profile0.conf:system/vendor/etc/perf-profile0.conf \
     vendor/htc/pme/proprietary/vendor/firmware/libpn548_fw.so:system/vendor/firmware/libpn548_fw.so \
     vendor/htc/pme/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
@@ -859,6 +858,8 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/vendor/lib64/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib64/libmmcamera_tintless_bg_pca_algo.so \
     vendor/htc/pme/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
     vendor/htc/pme/proprietary/vendor/lib64/libperipheral_client.so:system/vendor/lib64/libperipheral_client.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libprotobuf-cpp-fool.so:system/vendor/lib64/libprotobuf-cpp-fool.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libprotobuf-cpp-late.so:system/vendor/lib64/libprotobuf-cpp-late.so \
     vendor/htc/pme/proprietary/vendor/lib64/libpvr.so:system/vendor/lib64/libpvr.so \
     vendor/htc/pme/proprietary/vendor/lib64/libqcci_legacy.so:system/vendor/lib64/libqcci_legacy.so \
     vendor/htc/pme/proprietary/vendor/lib64/libqcmaputils.so:system/vendor/lib64/libqcmaputils.so \
@@ -933,9 +934,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/vendor/lib64/libxtadapter.so:system/vendor/lib64/libxtadapter.so \
     vendor/htc/pme/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so \
     vendor/htc/pme/proprietary/vendor/lib64/sensor_calibrate.so:system/vendor/lib64/sensor_calibrate.so \
-    vendor/htc/pme/proprietary/vendor/qcril.db:system/vendor/qcril.db \
-    vendor/htc/pme/proprietary/vendor/lib64/libprotobuf-cpp-fool.so:system/vendor/lib64/libprotobuf-cpp-fool.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libprotobuf-cpp-late.so:system/vendor/lib64/libprotobuf-cpp-late.so
+    vendor/htc/pme/proprietary/vendor/qcril.db:system/vendor/qcril.db
 
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
@@ -946,6 +945,7 @@ PRODUCT_PACKAGES += \
     libthermalclient \
     libtime_genoff \
     TimeService \
+    CNEService \
     QtiTetherService \
     com.qualcomm.location \
     QPerformance \
