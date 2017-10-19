@@ -945,7 +945,6 @@ PRODUCT_PACKAGES += \
     libthermalclient \
     libtime_genoff \
     TimeService \
-    CNEService \
     QtiTetherService \
     com.qualcomm.location \
     QPerformance \
