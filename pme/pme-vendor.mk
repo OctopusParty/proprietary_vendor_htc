@@ -21,7 +21,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/bin/dpmd:system/bin/dpmd \
     vendor/htc/pme/proprietary/bin/energy-awareness:system/bin/energy-awareness \
     vendor/htc/pme/proprietary/bin/htcdcpd:system/bin/htcdcpd \
-    vendor/htc/pme/proprietary/bin/hvdcp_opti:system/bin/hvdcp_opti \
     vendor/htc/pme/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
     vendor/htc/pme/proprietary/bin/imscmservice:system/bin/imscmservice \
     vendor/htc/pme/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
@@ -250,7 +249,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
     vendor/htc/pme/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/htc/pme/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
-    vendor/htc/pme/proprietary/vendor/etc/sensors/hals.conf:system/vendor/etc/sensors/hals.conf \
     vendor/htc/pme/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
     vendor/htc/pme/proprietary/etc/thermal-engine.conf:system/etc/thermal-engine.conf \
     vendor/htc/pme/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
@@ -307,6 +305,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/htc/pme/proprietary/lib64/libprojector.so:system/lib64/libprojector.so \
     vendor/htc/pme/proprietary/lib64/librilqmiservices.so:system/lib64/librilqmiservices.so \
+    vendor/htc/pme/proprietary/vendor/bin/hvdcp_opti:system/vendor/bin/hvdcp_opti \
     vendor/htc/pme/proprietary/vendor/bin/mm-pp-dpps:system/vendor/bin/mm-pp-dpps \
     vendor/htc/pme/proprietary/vendor/bin/pd-mapper:system/vendor/bin/pd-mapper \
     vendor/htc/pme/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
