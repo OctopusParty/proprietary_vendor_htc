@@ -259,6 +259,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/vendor/bin/ipacm-diag:system/vendor/bin/ipacm-diag \
     vendor/htc/pme/proprietary/vendor/bin/irsc_util:system/vendor/bin/irsc_util \
     vendor/htc/pme/proprietary/vendor/bin/loc_launcher:system/vendor/bin/loc_launcher \
+    vendor/htc/pme/proprietary/vendor/bin/lowi-server:system/vendor/bin/lowi-server \
     vendor/htc/pme/proprietary/vendor/bin/mm-pp-dpps:system/vendor/bin/mm-pp-dpps \
     vendor/htc/pme/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
     vendor/htc/pme/proprietary/vendor/bin/msm_irqbalance:system/vendor/bin/msm_irqbalance \
