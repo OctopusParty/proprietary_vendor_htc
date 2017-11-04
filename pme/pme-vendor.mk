@@ -493,6 +493,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
     vendor/htc/pme/proprietary/vendor/lib/libhdcp1prov.so:system/vendor/lib/libhdcp1prov.so \
     vendor/htc/pme/proprietary/vendor/lib/libhtc_common.so:system/vendor/lib/libhtc_common.so \
+    vendor/htc/pme/proprietary/vendor/lib/libhwdaphal.so:system/vendor/lib/libhwdaphal.so \
     vendor/htc/pme/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
     vendor/htc/pme/proprietary/vendor/lib/libjni_dualcamera.so:system/vendor/lib/libjni_dualcamera.so \
     vendor/htc/pme/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
@@ -830,6 +831,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/vendor/lib64/libgsl.so:system/vendor/lib64/libgsl.so \
     vendor/htc/pme/proprietary/vendor/lib64/libhdcp1prov.so:system/vendor/lib64/libhdcp1prov.so \
     vendor/htc/pme/proprietary/vendor/lib64/libhtc_common.so:system/vendor/lib64/libhtc_common.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libhwdaphal.so:system/vendor/lib64/libhwdaphal.so \
     vendor/htc/pme/proprietary/vendor/lib64/libidl.so:system/vendor/lib64/libidl.so \
     vendor/htc/pme/proprietary/vendor/lib64/libimscamera_jni.so:system/vendor/lib64/libimscamera_jni.so \
     vendor/htc/pme/proprietary/vendor/lib64/libimsmedia_jni.so:system/vendor/lib64/libimsmedia_jni.so \
