@@ -1,4 +1,4 @@
-# Copyright (C) 2017 The LineageOS Project
+# Copyright (C) 2017-2018 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -159,6 +159,58 @@ LOCAL_MULTILIB := both
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
+LOCAL_PROPRIETARY_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libqcompostprocbundle
+LOCAL_MODULE_OWNER := htc
+LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/soundfx/libqcompostprocbundle.so
+LOCAL_SRC_FILES_32 := proprietary/vendor/lib/soundfx/libqcompostprocbundle.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_RELATIVE_PATH := soundfx
+LOCAL_PROPRIETARY_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libqcomvisualizer
+LOCAL_MODULE_OWNER := htc
+LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/soundfx/libqcomvisualizer.so
+LOCAL_SRC_FILES_32 := proprietary/vendor/lib/soundfx/libqcomvisualizer.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_RELATIVE_PATH := soundfx
+LOCAL_PROPRIETARY_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libqcomvoiceprocessing
+LOCAL_MODULE_OWNER := htc
+LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/soundfx/libqcomvoiceprocessing.so
+LOCAL_SRC_FILES_32 := proprietary/vendor/lib/soundfx/libqcomvoiceprocessing.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_RELATIVE_PATH := soundfx
+LOCAL_PROPRIETARY_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libvolumelistener
+LOCAL_MODULE_OWNER := htc
+LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/soundfx/libvolumelistener.so
+LOCAL_SRC_FILES_32 := proprietary/vendor/lib/soundfx/libvolumelistener.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_RELATIVE_PATH := soundfx
 LOCAL_PROPRIETARY_MODULE := true
 include $(BUILD_PREBUILT)
 
